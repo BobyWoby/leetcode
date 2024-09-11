@@ -1,5 +1,11 @@
 #include <iostream>
+// Leetcode #9: Palindrome Number
 
+/*
+Given an integer x, return true if x is a
+palindrome, and false otherwise.
+
+ */
 bool isPalindrome(int x) {
         long int check = 0;
         for(long int i = x; i > 0; i /= 10){
